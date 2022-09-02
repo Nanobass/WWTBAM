@@ -55,7 +55,7 @@ function setup() {
 
 function draw() {
   image(backgroundImage, 0, 0);
-  outputVolume(volumeSlider.value());
+  mainTheme.amp(volumeSlider.value());
   let question, j, i;
   switch (gameState) {
     case 0:
