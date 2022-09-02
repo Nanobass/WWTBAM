@@ -44,7 +44,7 @@ function preload() {
   jokerUsedSFX = loadSound("assets/jokerUsed.mp3");
   questions = loadQuestions("assets/questions.txt");
 
-  jokerUsedSFX.amp(2.0);
+  jokerUsedSFX.amp(5.0);
 }
 
 function setup() {
